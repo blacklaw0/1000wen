@@ -1,0 +1,38 @@
+<properties>
+      <name>1000wen</name>
+      <base>http://1000ask.duapp.com/api/</base>
+      <!-- base>http://localhost:8080/api/</base -->
+      <requests>
+          <!-- request>
+              <name>login</name>
+              <action>login</action>
+              <type>get</type>
+              <args>username=$1&amp;password=$2</args>
+          </request-->
+          <!-- ADD -->
+          <request>
+              <name>add</name>
+              <action>add</action>
+              <type>get</type>
+              <args>tags=$1&amp;title=$2&amp;content=$3</args>
+          </request>
+          <!-- DELETE -->
+          <request>
+              <action>delete</action>
+              <type>get</type>
+              <args>id=$1</args>
+          </request>
+          <!-- UPDATE -->
+          <request>
+              <action>update</action>
+              <type>get</type>
+              <args>id=$1&amp;tags=$2&amp;title=$3&amp;content=$4</args>
+          </request>
+          <!-- RETRIEVE -->
+          <request>
+              <action>retrieve</action>
+              <type>get</type>
+              <args></args>
+          </request>
+      </requests>
+</properties>

@@ -18,28 +18,27 @@
         android:layout_alignParentTop="true"
         android:orientation="vertical" >
 
-        <EditText
-            android:id="@+id/editText1"
+        <TextView
+            android:id="@+id/result_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
-            <requestFocus />
-        </EditText>
-
-        <ListView
-            android:id="@+id/listView1"
+        <TextView
+            android:id="@+id/result_content"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="1" >
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        </ListView>
-
-        <Button
-            android:id="@+id/button1"
+        <TextView
+            android:id="@+id/result_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Refresh" />
+            android:text="Small Text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
     </LinearLayout>
 
 </RelativeLayout>
