@@ -22,13 +22,15 @@
             android:id="@+id/editText1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:ems="10"
+            android:visibility="gone" >
 
             <requestFocus />
         </EditText>
 
         <ListView
             android:id="@+id/listView1"
+            android:fastScrollEnabled="true"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" >
@@ -39,7 +41,9 @@
             android:id="@+id/button1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Refresh" />
+            android:text="Refresh"
+            android:visibility="gone" />
+
     </LinearLayout>
 
 </RelativeLayout>
